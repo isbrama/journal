@@ -1,0 +1,56 @@
+html {
+  background: url(../images/bgimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  margin-top: 150px;
+  color: #FFF;
+  font-family: sans-serif, helvetica;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-control {
+  width: 350px;
+}
+
+.btn {
+  width: 90px;
+}
+
+.signUp, .login {
+  margin-top: 15px;
+  color: yellow;
+  text-decoration: underline;
+}
+
+.message {
+  width: 350px;
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+h2{
+  margin: 20px auto;
+  color: #fff;
+}
+
+textarea{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    resize:both;
+}
